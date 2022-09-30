@@ -13,7 +13,9 @@ Flash: 8MB, Psram: 8MB
 Display Interface： RGB565
 
 5 inchs screen: 480x800 resolution, capacitive touch panel
+
 7 inchs screen: 480x800 resolution, capacitive touch panel
+
 4.3 inchs screen: 272x480 resolution, capacitive touch panel
 
 Audio Codec: ES8311
@@ -60,4 +62,6 @@ After flashing the program, press RST button to start the program.
 ## Support
 
 if you need any help, please contact: aemails@163.com
+
+https://www.youtube.com/watch?v=5X3XG22Qby8
 
