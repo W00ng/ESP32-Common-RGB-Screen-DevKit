@@ -20,30 +20,29 @@ Display Interface： RGB565
 
 Audio Codec: ES8311
 
-### Hardware
+## Hardware
 
 ![B01-en](https://user-images.githubusercontent.com/10337553/193231911-9f4dc2e3-9a75-44ea-a051-2700fd5238dc.png)
 
-### Software
+## Software
 
-#### Get ESP-IDF
+All the examples are stored in .../examples folder. Please build it with **ESP-IDF 5.0**
+![cf9bb940-f3d0-4c77-aea2-1a70621b6525](https://github.com/W00ng/ESP32-S3-RGB-Panel/assets/10337553/e7529af7-b5f8-465e-9cbd-4f91f170ed51)
 
-ESP32-Common-RGB-Screen-DevKit runs on ESP-IDF. For details on getting ESP-IDF, please refer to [ESP-IDF Programming Guide](https://idf.espressif.com/).
-
-> Please use the latest version of ESP-IDF on the master branch.
-
-#### Get ESP32-Common-RGB-Screen-DevKit
-
-Run the following commands in your terminal to download ESP32-Common-RGB-Screen-DevKit:
+### Step 1: Enter the examples folder
+Open the terminal and go to any folder that stores examples (e.g. lvgl_demo):
 
 ```bash
-git clone --recursive https://github.com/W00ng/ESP32-Common-RGB-Screen-DevKit.git
+cd ...\examples\lvgl_demo
 ```
 
-## Run Examples
+### Step 2: Build the example
 
-All examples of ESP32-Common-RGB-Screen-DevKit are stored in [examples](./examples) folder. 
+```bash
+idf.py build
+```
 
+### Step 3: Flash and launch monitor
 Flash the program and launch IDF Monitor:
 
 ```bash
